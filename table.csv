@@ -1,0 +1,119 @@
+dsm:port,did,sid,sensor,SN,x (Easting m),y (Northing m),z (MSL m),azimuth (deg),pitch (deg),roll (deg)
+initb:/dev/ttyUSB2,1.0,2,Gill 2D sonic,,,,,36.4,,
+initb:/dev/ttyUSB0,1.0,4,TRH.0.2m,,17.41,-4.69,217.24,,,
+initb:/dev/ttyUSB1,1.0,10,CSAT3A+EC150 (EC100).1.5m,P1003; 1276; 1312,15.88,-6.73,218.44,36.3,-0.02,
+initb:/dev/ttyUSB3,1.0,12,TRH.1.5m,,17.44,-4.63,218.45,,,
+initb:/dev/ttyUSB4,1.0,30,CSAT3A (EC100).3.0m,2035; 1814,15.88,-6.72,219.76,36.8,-0.69,0.86
+initb:/dev/gps_pty0,1.0,1000,GPS,,,,,,,
+initb:/dev/ttyUSB8,1.0,1020,Power Monitor,,,,,,,
+initm:/dev/ttyUSB0,3.0,40,CSAT3.4.5m,0540,15.6,-7.11,221.0,36.3,1.2,-1.19
+initm:/dev/ttyUSB2,3.0,42,TRH.4.5m,,17.42,-4.63,221.01,,,
+initm:/dev/ttyUSB1,3.0,60,CSAT3A+EC150 (EC100).6.0m,20454?; 1433; 1817,15.9,-6.71,222.32,36.1,-0.29,-0.86
+initm:/dev/ttyUSB6,3.0,100,CSAT3.10m,0800,15.6,-7.11,225.78,36.3,0.51,-0.61
+initm:/dev/ttyUSB7,3.0,102,TRH.10m,,17.42,-4.63,225.73,,,
+initm:/dev/ttyUSB8,3.0,1020,Power Monitor,,,,,,,
+initm:/dev/gps_pty0,3.0,1000,GPS,,,,,,,
+,,,,,,,,,,
+rel1:/dev/ttyUSB0,11.0,2,Gill 2D sonic,,,,,105.7,,
+rel1:/dev/ttyUSB2,11.0,4,TRH.0.2m,TRH28,313.62,18.71,214.28,,,
+rel1:/dev/gps_pty0,11.0,1000,GPS,,,,,,,
+rel1:/dev/ttyUSB1,11.0,1110,CSAT3A (EC100).1.5m.aux1,,309.87,15.02,215.6,106.94,0.14,-0.24
+rel1:/dev/ttyUSB3,11.0,1112,TRH.1.5m.aux1,,312.37,14.24,215.6,,,
+rel1:/dev/ttyUSB7,11.0,0x8000,NR01+soils.c (corn),mote32 NR24; TS32; HF23/HF14; QS15/QS14(Teardown); TP28,,,,,,
+rel2:/dev/ttyUSB0,12.0,10,CSAT3A+EC150 (EC100).1.5m,2046; 1389;1702,311.03,19.39,215.5,105.44,-1.09,1.34
+rel2:/dev/ttyUSB2,12.0,12,TRH.1.5m,,313.55,18.71,215.48,,,
+rel2:/dev/ttyUSB6,12.0,14,Nanobarometer.1.5m,,,,,,,
+rel2:/dev/ttyUSB4,12.0,30,CSAT3A (EC100).3.0m,P1005; 1800,311.03,19.4,216.78,105.73,-0.27,1.14
+rel2:/dev/gps_pty0,12.0,1000,GPS,,,,,,,
+rel2:/dev/ttyUSB3,12.0,1212,TRH.1.5m.aux2,,312.17,23.9,215.72,,,
+rel2:/dev/ttyUSB5,12.0,1214,CSAT3.1.5m.aux2,,309.74,24.55,215.8,103.49,-0.31,-1.75
+relm:/dev/ttyUSB0,13.0,40,CSAT3.4.5m,0536,310.59,19.53,218.12,105.62,0.74,-0.46
+relm:/dev/ttyUSB2,13.0,42,TRH.4.5m,,313.55,18.7,218.12,,,
+relm:/dev/ttyUSB1,13.0,60,CSAT3A+EC150 (EC100).6.0m,1009; 1387; 1700,311.04,19.41,219.4,105.78,-0.31,0.56
+relm:/dev/ttyUSB4,13.0,80,CSAT3.8.5m,0538,310.6,19.54,221.19,106.01,0.81,-0.98
+relm:/dev/ttyUSB5,13.0,82,TRH.8.5m,,313.55,18.69,221.18,,,
+relm:/dev/ttyUSB6,13.0,100,CSAT3.10m,0537,310.6,19.54,223.18,106.03,0.99,-1.22
+relm:/dev/gps_pty0,13.0,1000,GPS,,,,,,,
+relt:/dev/ttyUSB0,14.0,150,CSAT3.15m,0677,310.59,19.53,227.52,105.31,0.28,-1.4
+relt:/dev/ttyUSB2,14.0,152,TRH.15m,,313.55,18.7,227.47,,,
+relt:/dev/ttyUSB1,14.0,200,CSAT3A+EC150 (EC100).20m,P1006; 13286?; 1704,311.04,19.42,231.67,105.27,-1.95,-0.18
+relt:/dev/ttyUSB3,14.0,202,TRH.20m,,313.55,18.68,231.68,,,
+relt:/dev/ttyUSB4,14.0,204,Nanobarometer.20m,123998,,,,,,
+relt:/dev/gps_pty0,14.0,1000,GPS,,,,,,,
+relt:/dev/ttyUSB8,14.0,1020,Power Monitor,,,,,,,
+relt:/dev/ttyUSB5,14.0,0x8000,NR01.20m,NR26,,,,,,
+,,,,,,,,,,
+uconv1:/dev/ttyUSB2,21.0,2,Gill 2D sonic,1422017 1536012 replaced with 1335016 on 23 Oct,,,,131.0,,
+uconv1:/dev/ttyUSB0,21.0,4,TRH.0.2m,,460.3,-48.67,212.53,,,
+uconv1:/dev/gps_pty0,21.0,1000,GPS,,,,,,,
+uconv1:/dev/ttyUSB8,21.0,1020,Power Monitor,,,,,,,
+uconv1:/dev/ttyUSB1,21.0,1110,CSAT3A (EC100).1.5m.aux1,,454.06,-52.34,213.87,130.15,0.14,0.16
+uconv1:/dev/ttyUSB3,21.0,1112,TRH.1.5m.aux1,,456.06,-54.03,213.86,,,
+uconv2:/dev/ttyUSB0,22.0,10,CSAT3A+EC150 (EC100).1.5m,P1010; 1467; 1818,458.32,-46.94,213.64,131.19,-0.23,-0.01
+uconv2:/dev/ttyUSB2,22.0,12,TRH.1.5m,,460.3,-48.66,213.71,,,
+uconv2:/dev/ttyUSB4,22.0,30,CSAT3A (EC100).3.0m,2036; 1822,458.32,-46.95,215.01,131.12,-0.48,0.86
+uconv2:/dev/gps_pty0,22.0,1000,GPS (currently disabled),,,,,,,
+uconv2:/dev/ttyUSB1,22.0,1210,CSAT3A (EC100).1.5m.aux2,,462.03,-40.77,213.75,131.8,-0.03,-0.48
+uconv2:/dev/ttyUSB3,22.0,1212,TRH.1.5m.aux2,,463.98,-42.5,213.75,,,
+uconv2:/dev/ttyUSB7,22.0,0x8000,NR01+soils.g (grass),mote31 NR25; TS30/TS23?(Teardown); HF17; QS29; TP33,,,,,,
+uconvm:/dev/ttyUSB0,23.0,40,CSAT3.4.5m,0855,457.96,-46.65,216.29,130.56,0.22,0.17
+uconvm:/dev/ttyUSB2,23.0,42,TRH.4.5m,,460.3,-48.66,216.25,,,
+uconvm:/dev/ttyUSB1,23.0,60,CSAT3A+EC150 (EC100).6.0m,2037; 1385; 1813,458.3,-46.96,217.81,130.62,0.03,0.92
+uconvm:/dev/ttyUSB6,23.0,100,CSAT3.10m,1120,457.97,-46.63,221.04,131.29,0.86,-1.71
+uconvm:/dev/ttyUSB7,23.0,102,TRH.10m,,460.27,-48.68,221.08,,,
+uconvm:/dev/gps_pty0,23.0,1000,Power Monitor,,,,,,,
+uconvm:/dev/ttyUSB8,23.0,1020,GPS,,,,,,,
+,,,,,,,,,,
+lconv1:/dev/ttyUSB2,31.0,2,Gill 2D sonic,,,,,52.5,,
+lconv1:/dev/ttyUSB0,31.0,4,TRH.0.2m,,593.46,-132.97,211.19,,,
+lconv1:/dev/gps_pty0,31.0,1000,GPS,,,,,,,
+lconv1:/dev/ttyUSB1,31.0,1110,CSAT3A+EC150 (EC100).1.5m.aux1,,589.4,-139.21,212.56,51.63,0.16,1.01
+lconv1:/dev/ttyUSB3,31.0,1112,TRH.1.5m.aux1,,591.46,-137.59,212.56,,,
+lconv2:/dev/ttyUSB0,32.0,10,CSAT3A (EC100).1.5m,P1008; 1388; 1694,591.41,-134.54,212.43,51.58,-0.22,0.04
+lconv2:/dev/ttyUSB2,32.0,12,TRH.1.5m,,593.46,-132.97,212.44,,,
+lconv2:/dev/ttyUSB6,32.0,14,Nanobarometer.1.5m,,,,,,,
+lconv2:/dev/ttyUSB4,32.0,30,CSAT3A (EC100).3.0m,P1001; 1810,591.39,-134.56,213.61,52.31,-0.51,0.52
+lconv2:/dev/gps_pty0,32.0,1000,GPS,,,,,,,
+lconv2:/dev/ttyUSB1,32.0,1210,CSAT3A (EC100).1.5m.aux2,2044->2045 on 27 Oct,593.35,-129.9,212.61,49.54,-0.22,-1.14
+lconv2:/dev/ttyUSB3,32.0,1212,TRH.1.5m.aux2,,595.35,-128.21,212.6,,,
+lconv2:/dev/ttyUSB7,32.0,0x8000,NR01+soils.b (soybeans),mote21 TS26; Q33; HF01; TP29,,,,,,
+lconvm:/dev/ttyUSB0,33.0,40,CSAT3.4.5m,1119,591.01,-134.83,214.98,52.78,0.65,-0.69
+lconvm:/dev/ttyUSB2,33.0,42,TRH.4.5m,,593.47,-132.97,214.97,,,
+lconvm:/dev/ttyUSB1,33.0,60,CSAT3A+EC150 (EC100).6.0m,P1002; 1384; 1696,591.38,-134.56,216.3,52.57,-0.59,0.45
+lconvm:/dev/ttyUSB4,33.0,80,CSAT3.8.5m,0853,591.0,-134.82,218.11,53.02,0.58,-0.87
+lconvm:/dev/ttyUSB5,33.0,82,TRH.8.5m,,593.47,-132.98,218.1,,,
+lconvm:/dev/ttyUSB6,33.0,100,CSAT3.10m,0678,591.0,-134.82,220.11,53.14,0.74,-0.15
+lconvm:/dev/gps_pty0,33.0,1000,GPS,,,,,,,
+lconvm:/dev/ttyUSB8,33.0,1020,Power Monitor,,,,,,,
+lconvt:/dev/ttyUSB0,34.0,150,CSAT3.15m,1124,591.0,-134.81,224.4,52.87,0.96,-1.3
+lconvt:/dev/ttyUSB2,34.0,152,TRH.15m,,593.42,-133.02,224.45,,,
+lconvt:/dev/ttyUSB1,34.0,200,CSAT3A+EC150 (EC100).20m,2031; 1277; 1313,,,,52.31,-1.44,-0.17
+lconvt:/dev/ttyUSB3,34.0,202,TRH.20m,,593.5,-132.99,228.6,,,
+lconvt:/dev/ttyUSB4,34.0,204,Nanobarometer.20m,122850,,,,,,
+lconvt:/dev/gps_pty0,34.0,1000,GPS,,,,,,,
+lconvt:/dev/ttyUSB8,34.0,1020,Power Monitor,,,,,,,
+lconvt:/dev/ttyUSB5,34.0,0x8000,NR01.20m,NR2783,,,,,,
+,,,,,,,,,,
+p1:/dev/ttyUSB0,41.0,158,PTB220,50610003,,,,,,
+p1:/dev/gps_pty0,41.0,1000,GPS,,,,,,,
+p1:/dev/ttyUSB8,41.0,1020,Power Monitor,,,,,,,
+,,,,,,,,,,
+p2:/dev/ttyUSB0,42.0,158,PTB220,NCAR0001,,,,,,
+p2:/dev/gps_pty0,42.0,1000,GPS,,,,,,,
+p2:/dev/ttyUSB8,42.0,1020,Power Monitor,,,,,,,
+,,,,,,,,,,
+p3:/dev/ttyUSB0,43.0,158,PTB220,4110001,,,,,,
+p3:/dev/gps_pty0,43.0,1000,GPS,,,,,,,
+p3:/dev/ttyUSB8,43.0,1020,Power Monitor,,,,,,,
+,,,,,,,,,,
+p4:/dev/ttyUSB0,44.0,158,PTB220,50610001,,,,,,
+p4:/dev/gps_pty0,44.0,1000,GPS,,,,,,,
+p4:/dev/ttyUSB8,44.0,1020,Power Monitor,,,,,,,
+,,,,,,,,,,
+p5:/dev/ttyUSB0,45.0,158,PTB220,4110003,,,,,,
+p5:/dev/gps_pty0,45.0,1000,GPS,,,,,,,
+p5:/dev/ttyUSB8,45.0,1020,Power Monitor,,,,,,,
+,,,,,,,,,,
+p6:/dev/ttyUSB0,46.0,158,PTB220,4110004,,,,,,
+p6:/dev/gps_pty0,46.0,1000,GPS,,,,,,,
+p6:/dev/ttyUSB8,46.0,1020,Power Monitor,,,,,,,

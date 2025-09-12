@@ -1,0 +1,16 @@
+# Ignore files in this directory
+
+# ignore all .log files
+*.log
+
+# ignore the bulid directory
+build/
+
+
+# ignore the following data directories, but keep the file structure.
+Data/*
+ERA_5/*
+Inversions/*
+LandCharacter/*
+nc/*
+ 
